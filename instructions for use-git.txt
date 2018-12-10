@@ -1,0 +1,40 @@
+"""-----------------------------------------------------------
+11/12/2018
+Template matching for icon recognition
+Anicet Rakotonirina
+
+Python program using the openCV library
+and normalized template matching methods
+to detect a predetermined icon in an image
+
+TESTED ON:
+-Windows 10
+NOT TESTED ON:
+-Linux OS
+-Mac OS
+
+PYTHON VERSION: 3.7.1
+
+call from the command line:
+
+python test_template_matching-git.py [template image] [test image]
+
+source:
+https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_template_matching/py_template_matching.html
+
+------------------------------------------------------------"""
+
+This program requires the libraries OpenCV, numpy, and matplotlib.
+type the following in the command line (only tested in Windows 10):
+
+python -m pip install opencv-python
+
+which should install all of them automatically.
+
+You can then check if the libraries are present by going to the Python environment and typing:
+>>> import cv2
+>>> print(cv2.__version__)
+>>> import numpy
+>>> print(numpy.__version__)
+>>> import matplotlib
+>>> print(matplotlib.__version__)
